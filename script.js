@@ -9,7 +9,7 @@ let userMessage = null;
 let isResponseGenerating = false;
 let recognition;
 
-const API_KEY = "";
+const API_KEY = "AIzaSyD3xJ67IUSwyeRkzbO31inOUYSctf8Gy0k";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent?key=${API_KEY}`; 
 
 const loadDataFromLocalstorage = () => {
